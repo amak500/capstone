@@ -1,3 +1,9 @@
+## Executive Summary
+
+This project provides an analysis and evaluation of the current and future indicators of movie revenue. Data was taken from an ongoing Kaggle competition. Methods of analysis include Linear Regression, Ridge Regression, Lasso Regression, Random Forest Regression, and XGBoost Regression. In particular, the method of analysis chosen to be productionalized was the XGBoost Regression model.  
+
+The project also acknowledges that the analysis conducted has limitations: i.e, the dataset is relatively small and does not include enough information about foreign market films. 
+
 ## Problem Statement
 
 I am looking to build a regression model to predict the amount of revenue a movie will make based on its metadata. My model performance will be judged based on RMSE, and I am hoping to improve upon my baseline score calculated by guessing the mean of every movie's revenue every time by at least 15 percent. 
